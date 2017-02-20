@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mingyuan liu, nuc, LIC=ATTTG-V6WVA-QDPKD-8FIE4-RS74V-KMY1D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\电赛四旋翼模板\USER\Template.uvprojx
+Project File Date:  01/22/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling main.c...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling misc.c...
+compiling stm32f4xx_dma.c...
+compiling stm32f4xx_adc.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_fsmc.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_i2c.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_sdio.c...
+compiling stm32f4xx_syscfg.c...
+compiling stm32f4xx_tim.c...
+compiling stm32f4xx_usart.c...
+compiling inv_mpu.c...
+..\FWLIB\inc\inv_mpu.h(48): error:  #169: expected a declaration
+  };
+..\FWLIB\src\inv_mpu.c(125): error:  #35: #error directive: Gyro driver is missing the system layer implementations.
+  #error  Gyro driver is missing the system layer implementations.
+..\FWLIB\src\inv_mpu.c: 0 warnings, 2 errors
+compiling inv_mpu_dmp_motion_driver.c...
+..\FWLIB\inc\inv_mpu.h(48): error:  #169: expected a declaration
+  };
+..\FWLIB\src\inv_mpu_dmp_motion_driver.c(76): error:  #35: #error directive: Gyro driver is missing the system layer implementations.
+  #error  Gyro driver is missing the system layer implementations.
+..\FWLIB\src\inv_mpu_dmp_motion_driver.c: 0 warnings, 2 errors
+compiling delay.c...
+compiling sys.c...
+compiling usart.c...
+..\SYSTEM\usart\usart.c(24): warning:  #940-D: missing return statement at end of non-void function "_sys_exit"
+  } 
+..\SYSTEM\usart\usart.c: 1 warning, 0 errors
+compiling i2c_driver.c...
+..\DRIVER\src\i2c_driver.c(20): error:  #5: cannot open source input file "i2c_driver.h": No such file or directory
+  #include "i2c_driver.h"
+..\DRIVER\src\i2c_driver.c: 0 warnings, 1 error
+compiling uart_driver.c...
+compiling spi_dirver.c...
+..\DRIVER\src\spi_dirver.c(17): error:  #5: cannot open source input file "spi_driver.h": No such file or directory
+  #include "spi_driver.h"
+..\DRIVER\src\spi_dirver.c: 0 warnings, 1 error
+compiling mpu_9150.c...
+..\APPLICATION\src\mpu_9150.c(28): error:  #5: cannot open source input file "mpu9150.h": No such file or directory
+  #include "mpu9150.h"
+..\APPLICATION\src\mpu_9150.c: 0 warnings, 1 error
+"..\OBJ\Template.axf" - 7 Error(s), 1 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\电赛四旋翼模板\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:53
+</pre>
+</body>
+</html>
